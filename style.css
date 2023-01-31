@@ -9,27 +9,28 @@
 }
 
 h2 {
-    font-size:25px;
+    font-size:1.5625rem;
 }
 
 /* Menu */
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 900;
     color: black;
 }
 
 header img {
-  height: 60px;
+  height: 55px;
   float: left;
   margin-top: 5px;
+  padding-left: 10px;
 }
 
 nav {
     position:fixed;
     background-color: #231f20;
-    height: 70px;
+    height: 3.4375rem;
     width: 100%;
 }
 
@@ -45,8 +46,9 @@ nav ul a {
     color:#ffffff;
     display: inline-block;
     float: right;
-    line-height: 70px;
-    margin: 0px 18px;
+    line-height: 3.4375rem;
+    margin: 0px 1.0625rem;
+    font-size: 1rem;
 }
 
 
@@ -57,24 +59,24 @@ nav ul a {
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
-   height: calc(70vh - 80px);
+   height: calc(70vh - 5rem);
    width: 100%;
 }
 
 #beneficios {
-    margin: 20px 0px;
+    margin: 1.25rem 0rem;
 }
 
 #beneficios img {
-    width:  80px;
-    height: 80px;
+    width:  5rem;
+    height: 5rem;
 }
 
 #beneficios #somos-contenido {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 20px;
+    padding: 0.9375rem 1.25rem;
     text-align: justify;
 }
 
@@ -86,26 +88,26 @@ nav ul a {
 #comprar img {
     height: 20vh;
     width: auto;
-    border-radius: 10px;
-    padding-bottom: 10px;
+    border-radius: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 #comprar .productos{
     border-radius: 10px;
-    margin: 15px;
+    margin: 0.9375rem;
 }
 
 #comprar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0px;
+    margin: 1.25rem 0rem;
     text-align: center;
 }
 
 #comprar h2 {
-    font-size: 25px;
-    padding-top: 20px;
+    font-size: 1.5625rem;
+    padding-top: 1.25rem;
 }
 
 #contacto {
@@ -119,11 +121,11 @@ nav ul a {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 form {
-    width: 300px;
+    width: 18.75rem;
 }
 
 form input[type=email] {
@@ -131,7 +133,7 @@ form input[type=email] {
     text-align: left;
     font-weight: 600;
     border: 2px solid transparent;
-    margin: 30px 10px;
+    margin: 1.875rem 0.625rem;
     width: 100%;
     border-bottom: 2px solid #aeaeae;
 }
@@ -150,7 +152,7 @@ form input[type=email]:focus {
 
 form input[type=submit] {
     background-color: #aeaeae;
-    padding: 0px 10px;
+    padding: 0rem 0.625rem;
     cursor: pointer;
     border-radius: 5px;
     border: 2px solid transparent;
@@ -164,8 +166,8 @@ form input[type=submit]:hover {
 
 footer {
     background-color: #aeaeae;
-    height: 40px;
-    line-height: 40px;
+    height: 2.5rem;
+    line-height: 2.5rem;
     text-align: right;
     padding-right: 5px;
 }
@@ -174,29 +176,29 @@ footer {
 
 a {
  text-decoration: none;
- font-size: 20px;
+ font-size: 1.25rem;
  font-weight: 900;
  color: black;
 }
 
 header img {
-  height: 60px;
+  height: 2.5rem;
   float: left;
-  margin-top: 5px;
+  padding-left: 0;
 }
 
 nav {
     position:fixed;
     background-color: #231f20;
-    height: 70px;
+    height: 48px;
     width: 100%;
 }
 
 nav i {
-    font-size: 30px;
+    font-size: 1.5rem;
     color: aliceblue;
     float: right;
-    margin: 20px 10px;
+    margin: 12px 10px;
     cursor: pointer;
    
 }
@@ -214,14 +216,14 @@ ul {
     width: 100%;
     height: 100vh;
     background-color:#aeaeae;
-    top: 70px;
+    top: 48px;
     right: -100%;
     text-align: center;
     transition: all .5s;
 }
 
 ul li {
-    margin: 90px;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
 }
@@ -234,18 +236,18 @@ ul li {
 @media (min-width: 751px) {
 
     * {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
     
     #beneficios {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 100px 0px;
+        margin: 6.25rem 0rem;
     }
     #beneficios #somos-contenido {
         display: flex;
@@ -255,12 +257,12 @@ ul li {
     }
 
     #beneficios #somos-contenido .contenido-c {
-        padding-left: 30px;
+        padding-left: 1.875rem;
     }
 
     #beneficios img {
-        width:  150px;
-        height: 150px;
+        width:  9.375rem;
+        height: 9.375rem;
     }
 
     #video {
@@ -279,22 +281,22 @@ ul li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 20px 0px;
+        margin: 1.25rem 0rem;
         text-align: center;
     }
 
     #comprar h2 {
-        font-size: 40px;
-        padding-top: 100px;
+        font-size: 2.5rem;
+        padding-top: 6.25rem;
     }
 
     #comprar img {
         height: auto;
-        width: 500px;
+        width: 31.25rem;
     }
 
     #comprar a {
-        margin: 20px 50px;
+        margin: 1.25rem 3.125rem;
     }
 
     .producto-div {
@@ -302,7 +304,7 @@ ul li {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 150px;
+        padding-bottom: 9.375rem;
     }
 
 }
